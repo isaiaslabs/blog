@@ -2,3 +2,51 @@ baseURL = 'https://isaiaslabs.com/'
 languageCode = 'en-us'
 title = 'Isaías Labs'
 theme = 'archie'
+copyright = "© Isaías Labs"
+
+# Code syntax highlighting
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  mode = "toggle"       # light/dark toggle instead of "auto" — gives visitors control regardless of system theme
+  useCDN = false         # serve fonts/icons locally instead of via CDN — better privacy story for a security blog, no third-party requests
+  subtitle = "Cybersecurity research, write-ups, and projects"
+  mathjax = false        # only enable if you'll actually write math-heavy posts
+  katex = false
+  # customcss = ["css/custom.css"]  # for your color/branding overrides later
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/isaiaslabs"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "twitter"
+  url = "https://twitter.com/isaiaslabs"
+
+# Main menu
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "All posts"
+  url = "/posts"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 3
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags"
+  weight = 4
