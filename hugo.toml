@@ -19,6 +19,7 @@ pygmentscodefencesguesssyntax = true
   mathjax = false        # only enable if you'll actually write math-heavy posts
   katex = false
   # customcss = ["css/custom.css"]  # for your color/branding overrides later
+  mainSections = ["posts"]
 
 [[params.social]]
   name = "GitHub"
@@ -50,3 +51,8 @@ pygmentscodefencesguesssyntax = true
   name = "Tags"
   url = "/tags"
   weight = 4
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 5
