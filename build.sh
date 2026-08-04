@@ -28,7 +28,7 @@ main() {
   fi
 
   echo "Building the project..."
-  hugo build --gc --minify
+  hugo --gc --minify
 
   rm -rf "${build_temp_dir}"
 }
