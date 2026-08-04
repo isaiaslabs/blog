@@ -24,8 +24,8 @@ pygmentscodefencesguesssyntax = true
   mainSections = ["posts"] # where the search page will look into
   description = "Cybersecurity research, write-ups, and projects by Isaías"
   customcss = ["css/custom.css"]  # for your color/branding overrides later
-  # favicon = "/favicon.png"
-  # og_image = "/images/og-image.png"
+  favicon = "/favicon.png"
+  og_image = "/images/og-image.png"
 
 [[params.social]]
   name = "GitHub"
