@@ -1,0 +1,27 @@
+:root {
+  /* Light mode → pure black & white */
+  --color-primary: #000000;
+  --color-primary-hover: #333333;
+  --color-border: #000000;
+  --color-callout: #000000;
+  --color-text: #000000;
+  --color-text-muted: #444444;
+  --color-text-meta: #666666;
+  --color-background: #ffffff;
+  --color-background-code: #f0f0f0;
+  --color-background-pre: #f0f0f0;
+  --color-background-toc: #f0f0f0;
+  --color-background-draft: #eeeeee;
+
+  /* Dark mode → pure black & white, inverted */
+  --color-primary-dark: #ffffff;
+  --color-primary-hover-dark: #cccccc;
+  --color-border-dark: #ffffff;
+  --color-text-dark: #ffffff;
+  --color-text-muted-dark: #cccccc;
+  --color-background-dark: #000000;
+  --color-background-code-dark: #1a1a1a;
+  --color-background-pre-dark: #1a1a1a;
+  --color-background-toc-dark: #1a1a1a;
+  --color-background-draft-dark: #1a1a1a;
+}

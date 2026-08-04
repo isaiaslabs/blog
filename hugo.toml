@@ -18,12 +18,12 @@ pygmentscodefencesguesssyntax = true
 [params]
   mode = "toggle"       # light/dark toggle instead of "auto" — gives visitors control regardless of system theme
   useCDN = false         # serve fonts/icons locally instead of via CDN — better privacy story for a security blog, no third-party requests
-  subtitle = "Cybersecurity research, write-ups, and projects"
+  subtitle = "Cybersecurity research, write-ups, and projects."
   mathjax = false        # only enable if you'll actually write math-heavy posts
   katex = false
   mainSections = ["posts"] # where the search page will look into
   description = "Cybersecurity research, write-ups, and projects by Isaías"
-  # customcss = ["css/custom.css"]  # for your color/branding overrides later
+  customcss = ["css/custom.css"]  # for your color/branding overrides later
   # favicon = "/favicon.png"
   # og_image = "/images/og-image.png"
 
